@@ -35,13 +35,16 @@ spec:
         command:
         - '/bin/github-releases-notifier'
         args:
-        - '-r=golang/go'
-        - '-r=justwatchcom/elasticsearch_exporter'
-        - '-r=justwatchcom/gopass'
-        - '-r=justwatchcom/sql_exporter'
         - '-r=kubernetes/minikube'
-        - '-r=prometheus/prometheus'
-        - '-r=shurcooL/githubql'
+        - '-r=bitly/oauth2_proxy'
+        - '-r=JohnCoates/Aerial'
+        - '-r=mlabouardy/komiser'
+        - '-r=yue/wey'
+        - '-r=hashicorp/terraform'
+        - '-r=hashicorp/packer'
+        - '-r=terraform-providers/terraform-provider-aws'
+        - '-r=terraform-providers/terraform-provider-azurerm'
+        - '-r=terraform-providers/terraform-provider-google'
         resources:
           limits:
             cpu: 100m
