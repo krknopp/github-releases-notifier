@@ -36,6 +36,7 @@ spec:
         - '/bin/github-releases-notifier'
         args:
         - '-r=kubernetes/minikube'
+        - '-r=kubernetes/kubernetes'
         - '-r=bitly/oauth2_proxy'
         - '-r=JohnCoates/Aerial'
         - '-r=mlabouardy/komiser'
